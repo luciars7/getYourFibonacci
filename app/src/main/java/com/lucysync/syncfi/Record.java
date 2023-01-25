@@ -1,5 +1,10 @@
 package com.lucysync.syncfi;
 
+/**
+ * Class that helps organizing data in {@link RecordsActivity}. It helps creating objects "record",
+ * which are those generated on every number asked for in {@link MainActivity}. It is made up of
+ * attributes: date, position and number.
+ * */
 public class Record {
     private String date;
     private String position;
@@ -9,12 +14,6 @@ public class Record {
         date = "";
         position = "";
         number = "";
-    }
-
-    public Record(String d, String p, String n) {
-        date = d;
-        position = p;
-        number = n;
     }
 
     public String getDate() {

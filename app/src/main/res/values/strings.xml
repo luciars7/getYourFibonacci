@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SyncFi</string>
+    <string name="app_label">Get your Fibonacci</string>
+
+    <!-- Main Activity -->
+    <string name="description_text">Position in the Fibonacci sequence</string>
+    <string name="button_get_n_text">Get number!</string>
+    <string name="button_history_text">Check history</string>
+
+    <string name="error_file_text">"Couldn't save the record..."</string>
+
+    <!-- Records Activity -->
+    <string name="no_records_text">There are no records.</string>
+    <string name="position_text">In position </string>
+    <string name="date_text_test">0000/00/00 00:00:00</string>
+    <string name="position_text_test">In position 00 - </string>
+    <string name="number_text_test">00</string>
+</resources>
